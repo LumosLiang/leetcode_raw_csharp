@@ -20,3 +20,4 @@
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[C#](./solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.cs)|296 ms|
 |589|[ N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[C#](./solutions/589.%20N-ary%20Tree%20Preorder%20Traversal.cs)|296 ms|
 |590|[ N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[C#](./solutions/590.%20N-ary%20Tree%20Postorder%20Traversal.cs)|308 ms|
+|617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[C#](./solutions/617.%20Merge%20Two%20Binary%20Trees.cs)|188 ms|
