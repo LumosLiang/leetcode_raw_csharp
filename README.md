@@ -29,3 +29,4 @@
 |1470|[ Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[C#](./solutions/1470.%20Shuffle%20the%20Array.cs)|244 ms|
 |1480|[ Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[C#](./solutions/1480.%20Running%20Sum%20of%201d%20Array.cs)|236 ms|
 |1672|[ Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[C#](./solutions/1672.%20Richest%20Customer%20Wealth.cs)|100 ms|
+|1721|[ Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[C#](./solutions/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List.cs)|372 ms|
