@@ -22,3 +22,4 @@
 |590|[ N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[C#](./solutions/590.%20N-ary%20Tree%20Postorder%20Traversal.cs)|308 ms|
 |617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[C#](./solutions/617.%20Merge%20Two%20Binary%20Trees.cs)|188 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[C#](./solutions/704.%20Binary%20Search.cs)|132 ms|
+|763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[C#](./solutions/763.%20Partition%20Labels.cs)|380 ms|
