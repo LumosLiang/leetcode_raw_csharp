@@ -15,3 +15,4 @@
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C#](./solutions/206.%20Reverse%20Linked%20List.cs)|96 ms|
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[C#](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.cs)|100 ms|
 |226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[C#](./solutions/226.%20Invert%20Binary%20Tree.cs)|144 ms|
+|236|[ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[C#](./solutions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cs)|124 ms|
