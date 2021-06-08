@@ -5,10 +5,10 @@ public class Solution {
         void backtrack(int[] choices, List<int> path)
         {
             if(choices.Length == 0)
-            {
+            {
                 res.Add(new List<int>(path));
                 return;
-            }
+            }
             for(int i = 0; i < choices.Length; i++)
             {
                 path.Add(choices[i]);
