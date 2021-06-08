@@ -23,3 +23,4 @@
 |617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[C#](./solutions/617.%20Merge%20Two%20Binary%20Trees.cs)|188 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[C#](./solutions/704.%20Binary%20Search.cs)|132 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[C#](./solutions/763.%20Partition%20Labels.cs)|380 ms|
+|876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C#](./solutions/876.%20Middle%20of%20the%20Linked%20List.cs)|92 ms|
