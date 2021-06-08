@@ -25,3 +25,4 @@
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[C#](./solutions/763.%20Partition%20Labels.cs)|380 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C#](./solutions/876.%20Middle%20of%20the%20Linked%20List.cs)|92 ms|
 |1108|[ Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[C#](./solutions/1108.%20Defanging%20an%20IP%20Address.cs)|84 ms|
+|1431|[ Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[C#](./solutions/1431.%20Kids%20With%20the%20Greatest%20Number%20of%20Candies.cs)|236 ms|
