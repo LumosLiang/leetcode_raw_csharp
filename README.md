@@ -19,3 +19,4 @@
 |237|[ Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[C#](./solutions/237.%20Delete%20Node%20in%20a%20Linked%20List.cs)|92 ms|
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[C#](./solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.cs)|296 ms|
 |589|[ N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[C#](./solutions/589.%20N-ary%20Tree%20Preorder%20Traversal.cs)|296 ms|
+|590|[ N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[C#](./solutions/590.%20N-ary%20Tree%20Postorder%20Traversal.cs)|308 ms|
