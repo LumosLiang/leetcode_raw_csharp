@@ -9,6 +9,7 @@
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[C#](./solutions/46.%20Permutations.cs)|312 ms|
 |47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[C#](./solutions/47.%20Permutations%20II.cs)|244 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C#](./solutions/74.%20Search%20a%202D%20Matrix.cs)|156 ms|
+|90|[ Subsets II](https://leetcode.com/problems/subsets-ii/)|[C#](./solutions/90.%20Subsets%20II.cs)|336 ms|
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C#](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.cs)|232 ms|
 |102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C#](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.cs)|388 ms|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[C#](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.cs)|124 ms|
