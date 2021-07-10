@@ -6,7 +6,7 @@
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[C#](./solutions/15.%203Sum.cs)|448 ms|
 |33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C#](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.cs)|92 ms|
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C#](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cs)|236 ms|
-|46|[ Permutations](https://leetcode.com/problems/permutations/)|[C#](./solutions/46.%20Permutations.cs)|N/A|
+|46|[ Permutations](https://leetcode.com/problems/permutations/)|[C#](./solutions/46.%20Permutations.cs)|312 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C#](./solutions/74.%20Search%20a%202D%20Matrix.cs)|156 ms|
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C#](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.cs)|232 ms|
 |102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C#](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.cs)|388 ms|
