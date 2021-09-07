@@ -4,6 +4,7 @@
 |---| ----- | -------- | ------- |
 |1|[ Two Sum](https://leetcode.com/problems/two-sum/)|[C#](./solutions/1.%20Two%20Sum.cs)|232 ms|
 |2|[ Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C#](./solutions/2.%20Add%20Two%20Numbers.cs)|108 ms|
+|3|[ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C#](./solutions/3.%20Longest%20Substring%20Without%20Repeating%20Characters.cs)|84 ms|
 |7|[ Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C#](./solutions/7.%20Reverse%20Integer.cs)|67 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[C#](./solutions/15.%203Sum.cs)|448 ms|
 |33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C#](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.cs)|92 ms|
