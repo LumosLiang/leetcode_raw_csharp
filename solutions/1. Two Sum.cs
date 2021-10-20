@@ -6,11 +6,11 @@ public class Solution {
         {
             if(hash.ContainsKey(nums[i]))
             {
-                return new int[]{i,hash[nums[i]]};
+                return new int[]{i, hash[nums[i]]};
             }
             else
             {
-                hash.Add(target - nums[i], i);
+                if(!hash.ContainsKey(target - nums[i])) hash.Add(target - nums[i], i);
             }
         }
         return new int[2];
