@@ -1,8 +1,9 @@
 public class Solution {
-    public int ClimbStairs(int n)
+   public int ClimbStairs(int n)
     {
+        if (n < 2) return n;
 ​
-        int[] dp = new int[n + 1];
+        int[] dp = new int[n];
         dp[0] = 1;
         dp[1] = 2;
 ​
@@ -12,6 +13,24 @@ public class Solution {
         }
 ​
         return dp[n - 1];
+​
+    }
+​
+    // dp: reduce dp from O(n) to O(1)
+    public int ClimbStairs2(int n)
+    {
+​
+        if (n <= 2) return n;
+​
+        int pre = 2, prepre = 1, res = 0;
+​
+        for (int i = 2; i < n; i++)
+        {
+            res = pre + prepre;
+            prepre = pre;
+            pre = res;
+        }
+        return res;
 ​
     }
 }
