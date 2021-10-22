@@ -19,7 +19,7 @@
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C#](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.cs)|232 ms|
 |102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C#](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.cs)|388 ms|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[C#](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.cs)|124 ms|
-|118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[C#](./solutions/118.%20Pascal's%20Triangle.cs)|134 ms|
+|118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[C#](./solutions/118.%20Pascal's%20Triangle.cs)|168 ms|
 |136|[ Single Number](https://leetcode.com/problems/single-number/)|[C#](./solutions/136.%20Single%20Number.cs)|112 ms|
 |144|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C#](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.cs)|248 ms|
 |145|[ Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[C#](./solutions/145.%20Binary%20Tree%20Postorder%20Traversal.cs)|248 ms|
