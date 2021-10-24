@@ -32,6 +32,7 @@
 |226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[C#](./solutions/226.%20Invert%20Binary%20Tree.cs)|144 ms|
 |236|[ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[C#](./solutions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cs)|124 ms|
 |237|[ Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[C#](./solutions/237.%20Delete%20Node%20in%20a%20Linked%20List.cs)|92 ms|
+|242|[ Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C#](./solutions/242.%20Valid%20Anagram.cs)|130 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[C#](./solutions/283.%20Move%20Zeroes.cs)|256 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[C#](./solutions/344.%20Reverse%20String.cs)|320 ms|
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[C#](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.cs)|162 ms|
