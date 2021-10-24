@@ -8,6 +8,7 @@
 |7|[ Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C#](./solutions/7.%20Reverse%20Integer.cs)|67 ms|
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[C#](./solutions/11.%20Container%20With%20Most%20Water.cs)|292 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[C#](./solutions/15.%203Sum.cs)|448 ms|
+|19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C#](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.cs)|188 ms|
 |33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C#](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.cs)|92 ms|
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C#](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cs)|236 ms|
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[C#](./solutions/46.%20Permutations.cs)|312 ms|
