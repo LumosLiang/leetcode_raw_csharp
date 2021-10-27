@@ -23,6 +23,7 @@
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C#](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.cs)|232 ms|
 |102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C#](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.cs)|388 ms|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[C#](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.cs)|124 ms|
+|116|[ Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[C#](./solutions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cs)|96 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[C#](./solutions/118.%20Pascal's%20Triangle.cs)|168 ms|
 |136|[ Single Number](https://leetcode.com/problems/single-number/)|[C#](./solutions/136.%20Single%20Number.cs)|112 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[C#](./solutions/141.%20Linked%20List%20Cycle.cs)|192 ms|
