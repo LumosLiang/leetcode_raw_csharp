@@ -12,14 +12,35 @@
  * }
  */
 public class Solution {
-    public IList<int> PreorderTraversal(TreeNode root) {
-        var res = new List<int>();
-        if(root == null)
+    public IList<int> PreorderTraversalDFS(TreeNode root)
+    {
+        List<int> res = new List<int>();
+        if (root is null) return res;
+​
+        Stack<TreeNode> s = new Stack<TreeNode>();
+        s.Push(root);
+​
+        while (s.Count != 0)
         {
-            return res;
+            var temp = s.Pop();
+            if (temp != null)
+            {
+                res.Add(temp.val);
+                s.Push(temp.right);
+                s.Push(temp.left);
+            }
         }
-        res.Add(root.val);
-        return res.Concat(PreorderTraversal(root.left)).Concat(PreorderTraversal(root.right)).ToList();
-   
+        return res;
     }
-}
+​
+    public IList<int> PreorderTraversalDFS2(TreeNode root)
+    {
+        List<int> res = new List<int>();
+        DFS(root, res);
+        return res;
+    }
+​
+    private void DFS(TreeNode root, List<int> list)
+    {
+        if (root is null) return;
+​
