@@ -1,29 +1,41 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 public class Solution {
-    public IList<IList<int>> LevelOrder(TreeNode root) {
-        var result = new List<IList<int>>();
-        if (root == null) return result;
+    public IList<IList<int>> LevelOrder(TreeNode root)
+    {
+        IList<IList<int>> res = new List<IList<int>>();
+        if (root is null) return res;
 ​
-        var queue = new Queue<TreeNode>();
-        queue.Enqueue(root);
+        Queue<TreeNode> q = new Queue<TreeNode>();
+        q.Enqueue(root);
 ​
-        while (queue.Any()) {
-            var size = queue.Count;
-            var oneResult = new List<int>();
-            for (int s = 0; s < size; s++) {
-                var cur = queue.Dequeue();
-                oneResult.Add(cur.val);
+        while (q.Count != 0)
+        {
+            Queue<TreeNode> tempnode = new Queue<TreeNode>();
+            IList<int> tempval = new List<int>();
 ​
-                if (cur.left != null) {
-                    queue.Enqueue(cur.left);
-                }
-​
-                if (cur.right != null) {
-                    queue.Enqueue(cur.right);
-                }
+            while (q.Count != 0)
+            {
+                var node = q.Dequeue();
+                tempval.Add(node.val);
+                if (node.left != null) tempnode.Enqueue(node.left);
+                if (node.right != null) tempnode.Enqueue(node.right);
             }
-            result.Add(oneResult);
+            q = tempnode;
+            res.Add(tempval);
         }
 ​
-        return result;
+        return res;
     }
 }
