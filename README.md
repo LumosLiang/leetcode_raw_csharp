@@ -21,6 +21,7 @@
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[C#](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.cs)|92 ms|
 |90|[ Subsets II](https://leetcode.com/problems/subsets-ii/)|[C#](./solutions/90.%20Subsets%20II.cs)|336 ms|
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C#](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.cs)|232 ms|
+|101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[C#](./solutions/101.%20Symmetric%20Tree.cs)|88 ms|
 |102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C#](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.cs)|116 ms|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[C#](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.cs)|124 ms|
 |116|[ Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[C#](./solutions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cs)|96 ms|
