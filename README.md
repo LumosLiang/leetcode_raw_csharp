@@ -55,6 +55,7 @@
 |590|[ N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[C#](./solutions/590.%20N-ary%20Tree%20Postorder%20Traversal.cs)|308 ms|
 |617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[C#](./solutions/617.%20Merge%20Two%20Binary%20Trees.cs)|188 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[C#](./solutions/695.%20Max%20Area%20of%20Island.cs)|100 ms|
+|700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[C#](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.cs)|217 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[C#](./solutions/704.%20Binary%20Search.cs)|132 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[C#](./solutions/763.%20Partition%20Labels.cs)|380 ms|
 |875|[ Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[C#](./solutions/875.%20Koko%20Eating%20Bananas.cs)|136 ms|
