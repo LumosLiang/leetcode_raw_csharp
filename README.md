@@ -61,6 +61,7 @@
 |701|[ Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[C#](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.cs)|212 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[C#](./solutions/704.%20Binary%20Search.cs)|132 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[C#](./solutions/763.%20Partition%20Labels.cs)|380 ms|
+|784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[C#](./solutions/784.%20Letter%20Case%20Permutation.cs)|156 ms|
 |875|[ Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[C#](./solutions/875.%20Koko%20Eating%20Bananas.cs)|136 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C#](./solutions/876.%20Middle%20of%20the%20Linked%20List.cs)|92 ms|
 |1108|[ Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[C#](./solutions/1108.%20Defanging%20an%20IP%20Address.cs)|84 ms|
