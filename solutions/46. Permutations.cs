@@ -1,31 +1,26 @@
 public class Solution {
-    
-    IList<IList<int>> res = new List<IList<int>>();
-    
-    public IList<IList<int>> Permute(int[] nums) {
-        
-        helper(new List<int>(nums), new List<int>());
+    public IList<IList<int>> Permute(int[] nums)
+    {
+        IList<IList<int>> res = new List<IList<int>>();
+        BackTrackPermute(new List<int>(nums), new List<int>(), res);
         return res;
     }
-    
-    public void helper(List<int> choices, List<int> path)
+​
+    private void BackTrackPermute(List<int> choices, List<int> path, IList<IList<int>> result)
     {
-        if(choices.Count == 0)
+        if (choices.Count == 0)
         {
-            res.Add(path);
-            return
+            result.Add(new List<int>(path));
+            return;
         }
-        
-        for(int i = 0; i < choices.Count; i++)
-        {
-            var tpath = new List<int>(path);
-            tpath.Add(choices[i]);
-            var tchoices = new List<int>(choices);
-            tchoices.RemoveAt(i);
-            helper(tchoices, tpath);
-        }
-        
+​
+        for (int i = 0; i < choices.Count; i++)
+        {
+            path.Add(choices[i]);
+            var tchoices = choices.GetRange(0, i);
+            tchoices.AddRange(choices.GetRange(i + 1, choices.Count - i - 1));
+            BackTrackPermute(tchoices, path, result);
+            path.RemoveAt(path.Count - 1);
+        }
     }
 }
-​
-​
