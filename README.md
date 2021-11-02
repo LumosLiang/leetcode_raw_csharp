@@ -67,6 +67,7 @@
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[C#](./solutions/784.%20Letter%20Case%20Permutation.cs)|156 ms|
 |875|[ Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[C#](./solutions/875.%20Koko%20Eating%20Bananas.cs)|136 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C#](./solutions/876.%20Middle%20of%20the%20Linked%20List.cs)|92 ms|
+|994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[C#](./solutions/994.%20Rotting%20Oranges.cs)|80 ms|
 |1108|[ Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[C#](./solutions/1108.%20Defanging%20an%20IP%20Address.cs)|84 ms|
 |1137|[ N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[C#](./solutions/1137.%20N-th%20Tribonacci%20Number.cs)|36 ms|
 |1431|[ Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[C#](./solutions/1431.%20Kids%20With%20the%20Greatest%20Number%20of%20Candies.cs)|236 ms|
