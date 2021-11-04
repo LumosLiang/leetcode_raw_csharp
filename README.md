@@ -35,6 +35,7 @@
 |144|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C#](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.cs)|124 ms|
 |145|[ Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[C#](./solutions/145.%20Binary%20Tree%20Postorder%20Traversal.cs)|248 ms|
 |189|[ Rotate Array](https://leetcode.com/problems/rotate-array/)|[C#](./solutions/189.%20Rotate%20Array.cs)|282 ms|
+|191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C#](./solutions/191.%20Number%20of%201%20Bits.cs)|32 ms|
 |198|[ House Robber](https://leetcode.com/problems/house-robber/)|[C#](./solutions/198.%20House%20Robber.cs)|132 ms|
 |203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[C#](./solutions/203.%20Remove%20Linked%20List%20Elements.cs)|96 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C#](./solutions/206.%20Reverse%20Linked%20List.cs)|96 ms|
