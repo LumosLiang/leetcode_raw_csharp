@@ -84,6 +84,7 @@
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[C#](./solutions/704.%20Binary%20Search.cs)|132 ms|
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[C#](./solutions/733.%20Flood%20Fill.cs)|132 ms|
 |740|[ Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[C#](./solutions/740.%20Delete%20and%20Earn.cs)|92 ms|
+|746|[ Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[C#](./solutions/746.%20Min%20Cost%20Climbing%20Stairs.cs)|160 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[C#](./solutions/763.%20Partition%20Labels.cs)|380 ms|
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[C#](./solutions/784.%20Letter%20Case%20Permutation.cs)|156 ms|
 |875|[ Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[C#](./solutions/875.%20Koko%20Eating%20Bananas.cs)|136 ms|
