@@ -1,38 +1,14 @@
 public class Solution {
-    public string LongestPalindrome(string s)
-        {
-​
-            if (s.Length <= 1) return s;
-            
-            var res = "";
-​
-            for (int i = 0; i < s.Length - 1; i++)
-            {
-                // same start
-                var odd = helper(s, i, i);
-                if (odd.Length > res.Length) res = odd;
-                // adjcent
-                var even = helper(s, i, i + 1);
-                if (even.Length > res.Length) res = even;
-            }
-​
-            return res;
-​
-        }
-​
-​
-    public string helper(string s, int l, int r)
+    public bool IsPalindrome(int x)
     {
-        while (l >= 0 && r <= s.Length - 1)
+        if (x < 0) return false;
+        int res = 0, curr = x;
+        while (curr != 0)
         {
-            if (s[l] == s[r])
-            {
-                l--;
-                r++;
-            }
-            else break;
+            res = res * 10 + curr % 10;
+            curr = curr / 10;
         }
 ​
-        return s.Substring(l + 1, r - l - 1);
+        return res == x;
     }
 }
