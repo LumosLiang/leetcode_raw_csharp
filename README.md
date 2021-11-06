@@ -33,6 +33,7 @@
 |88|[ Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C#](./solutions/88.%20Merge%20Sorted%20Array.cs)|120 ms|
 |90|[ Subsets II](https://leetcode.com/problems/subsets-ii/)|[C#](./solutions/90.%20Subsets%20II.cs)|336 ms|
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C#](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.cs)|232 ms|
+|96|[ Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[C#](./solutions/96.%20Unique%20Binary%20Search%20Trees.cs)|36 ms|
 |98|[ Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[C#](./solutions/98.%20Validate%20Binary%20Search%20Tree.cs)|96 ms|
 |101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[C#](./solutions/101.%20Symmetric%20Tree.cs)|88 ms|
 |102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C#](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.cs)|116 ms|
