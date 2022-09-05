@@ -55,6 +55,7 @@
 |198|[ House Robber](https://leetcode.com/problems/house-robber/)|[C#](./solutions/198.%20House%20Robber.cs)|132 ms|
 |203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[C#](./solutions/203.%20Remove%20Linked%20List%20Elements.cs)|96 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C#](./solutions/206.%20Reverse%20Linked%20List.cs)|96 ms|
+|207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[C#](./solutions/207.%20Course%20Schedule.cs)|223 ms|
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[C#](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.cs)|100 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C#](./solutions/217.%20Contains%20Duplicate.cs)|138 ms|
 |226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[C#](./solutions/226.%20Invert%20Binary%20Tree.cs)|144 ms|
