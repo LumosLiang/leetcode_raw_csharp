@@ -29,7 +29,7 @@
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C#](./solutions/53.%20Maximum%20Subarray.cs)|393 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C#](./solutions/70.%20Climbing%20Stairs.cs)|48 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C#](./solutions/74.%20Search%20a%202D%20Matrix.cs)|156 ms|
-|77|[ Combinations](https://leetcode.com/problems/combinations/)|[C#](./solutions/77.%20Combinations.cs)|100 ms|
+|77|[ Combinations](https://leetcode.com/problems/combinations/)|[C#](./solutions/77.%20Combinations.cs)|198 ms|
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[C#](./solutions/78.%20Subsets.cs)|240 ms|
 |81|[ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[C#](./solutions/81.%20Search%20in%20Rotated%20Sorted%20Array%20II.cs)|154 ms|
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[C#](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.cs)|92 ms|
