@@ -1,9 +1,7 @@
 public class Solution {
-    public string IntToRoman(int num)
-    {
+    public string IntToRoman(int num) {
         Dictionary<int, string> table = new Dictionary<int, string>
-        {
-​
+        {   
             { 1000,"M"},
             { 900,"CM"},
             { 500,"D"},
@@ -17,21 +15,20 @@ public class Solution {
             { 5,"V"},
             { 4,"IV"},
             { 1,"I"},
-​
         };
 ​
         var res = "";
 ​
         foreach (int key in table.Keys)
         {
-            var resid = num / key;
-            if (resid != 0)
+            while(num >= key)
             {
-                res += new StringBuilder().Insert(0, table[key], resid).ToString();
-                num %= key;
+                res += table[key];
+                num -= key;
             }
         }
 ​
         return res;
     }
 }
+​
