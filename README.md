@@ -10,7 +10,7 @@
 |8|[ String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C#](./solutions/8.%20String%20to%20Integer%20(atoi).cs)|105 ms|
 |9|[ Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[C#](./solutions/9.%20Palindrome%20Number.cs)|56 ms|
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[C#](./solutions/11.%20Container%20With%20Most%20Water.cs)|292 ms|
-|12|[ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C#](./solutions/12.%20Integer%20to%20Roman.cs)|168 ms|
+|12|[ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C#](./solutions/12.%20Integer%20to%20Roman.cs)|110 ms|
 |13|[ Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[C#](./solutions/13.%20Roman%20to%20Integer.cs)|121 ms|
 |14|[ Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[C#](./solutions/14.%20Longest%20Common%20Prefix.cs)|130 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[C#](./solutions/15.%203Sum.cs)|448 ms|
