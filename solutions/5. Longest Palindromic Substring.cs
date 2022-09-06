@@ -1,27 +1,25 @@
 public class Solution {
     public string LongestPalindrome(string s)
-        {
+    {
+        if(s.Length <= 1) return s;
 ​
-            if (s.Length <= 1) return s;
-            
-            var res = "";
+        var res = "";
 ​
-            for (int i = 0; i < s.Length - 1; i++)
-            {
-                // same start
-                var odd = helper(s, i, i);
-                if (odd.Length > res.Length) res = odd;
-                // adjcent
-                var even = helper(s, i, i + 1);
-                if (even.Length > res.Length) res = even;
-            }
+        for (int i = 0; i < s.Length - 1; i++)
+        {
+            // same start
+            var odd = Helper(s, i, i);
+            if (odd.Length > res.Length) res = odd;
+            // adjcent
+            var even = Helper(s, i, i + 1);
+            if (even.Length > res.Length) res = even;
+        }
 ​
-            return res;
+        return res;
 ​
-        }
+    }
 ​
-​
-    public string helper(string s, int l, int r)
+    public string Helper(string s, int l, int r)
     {
         while (l >= 0 && r <= s.Length - 1)
         {
@@ -32,7 +30,8 @@ public class Solution {
             }
             else break;
         }
-​
-        return s.Substring(l + 1, r - l - 1);
+        return s.Substring(l + 1, (r - 1) - (l + 1) + 1);
     }
 }
+​
+    
