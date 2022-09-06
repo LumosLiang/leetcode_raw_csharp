@@ -1,30 +1,56 @@
 public class Solution {
-    
-    IList<IList<int>> res = new List<IList<int>>();
-        
-    public IList<IList<int>> PermuteUnique(int[] nums) {
+    public IList<IList<int>> PermuteUnique(int[] nums)
+    {
+        IList<IList<int>> res = new List<IList<int>>();
         Array.Sort(nums);
-        helper(new List<int>(nums), new List<int>());
+        Helper(new List<int>(nums), new List<int>(), res);
         return res;
     }
-    
-    public void helper(List<int> choices, List<int> path)
+​
+    public void Helper(List<int> choices, List<int> path, IList<IList<int>> res)
     {
-        if(choices.Count == 0){
+        if (choices.Count == 0)
+        {
             res.Add(path);
             return;
         }
-        for(int i = 0; i < choices.Count; i++){
-            if(i > 0 && choices[i] == choices[i - 1]){
+        for (int i = 0; i < choices.Count; i++)
+        {
+            if (i > 0 && choices[i] == choices[i - 1])
+            {
                 continue;
             }
-            var tpath = new List<int>(path);
-            tpath.Add(choices[i]);
-            var tchoices = new List<int>(choices);
-            tchoices.RemoveAt(i);
-            helper(tchoices, tpath);
-            
+            var tempPath = new List<int>(path);
+            tempPath.Add(choices[i]);
+            var tempChoices = new List<int>(choices);
+            tempChoices.RemoveAt(i);
+            Helper(tempChoices, tempPath, res);
+​
         }
     }
-    
+​
+    public void Helper2(List<int> choices, List<int> path, IList<IList<int>> res)
+    {
+        if (choices.Count == 0)
+        {
+            res.Add(new List<int>(path));
+            return;
+        }
+​
+        for (int i = 0; i < choices.Count; i++)
+        {
+            if (i > 0 && choices[i] == choices[i - 1]) continue;
+​
+            path.Add(choices[i]);
+            var temp = choices[i];
+            choices.RemoveAt(i);
+​
+            Helper2(choices, path, res);
+​
+            choices.Insert(i, temp);
+            path.RemoveAt(path.Count - 1);
+​
+        }
+    }
 }
+​
