@@ -25,7 +25,7 @@
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[C#](./solutions/36.%20Valid%20Sudoku.cs)|160 ms|
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[Python3](./solutions/43.%20Multiply%20Strings.py)|130 ms|
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[C#](./solutions/46.%20Permutations.cs)|112 ms|
-|47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[C#](./solutions/47.%20Permutations%20II.cs)|244 ms|
+|47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[C#](./solutions/47.%20Permutations%20II.cs)|138 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C#](./solutions/53.%20Maximum%20Subarray.cs)|393 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C#](./solutions/70.%20Climbing%20Stairs.cs)|48 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C#](./solutions/74.%20Search%20a%202D%20Matrix.cs)|156 ms|
