@@ -5,7 +5,7 @@
 |1|[ Two Sum](https://leetcode.com/problems/two-sum/)|[C#](./solutions/1.%20Two%20Sum.cs)|282 ms|
 |2|[ Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C#](./solutions/2.%20Add%20Two%20Numbers.cs)|120 ms|
 |3|[ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C#](./solutions/3.%20Longest%20Substring%20Without%20Repeating%20Characters.cs)|93 ms|
-|5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C#](./solutions/5.%20Longest%20Palindromic%20Substring.cs)|96 ms|
+|5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C#](./solutions/5.%20Longest%20Palindromic%20Substring.cs)|117 ms|
 |7|[ Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C#](./solutions/7.%20Reverse%20Integer.cs)|67 ms|
 |8|[ String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C#](./solutions/8.%20String%20to%20Integer%20(atoi).cs)|105 ms|
 |9|[ Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[C#](./solutions/9.%20Palindrome%20Number.cs)|56 ms|
