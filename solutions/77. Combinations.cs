@@ -1,28 +1,27 @@
 public class Solution {
+    IList<IList<int>> res = new List<IList<int>>();
     
-    public IList<IList<int>> Combine(int n, int k)
-    {
-        IList<IList<int>> res = new List<IList<int>>();
+    public IList<IList<int>> Combine(int n, int k) {
+        
 ​
-        BackTrackCombine(n, new List<int>(), res, k, 1);
+        Helper(1, new List<int>(), n, k);
         return res;
-    }
-​
-    private void BackTrackCombine(int choices, List<int> path, IList<IList<int>> result, int length, int start)
+    }      
+    
+    public void Helper(int index, List<int> path, int n, int k)
     {
-        if (path.Count == length)
+        if (path.Count == k)
         {
-            result.Add(new List<int>(path));
+            res.Add(new List<int>(path));
             return;
         }
 ​
-        for (int i = start; i <= choices; i++)
+        for (int i = index; i < n + 1; i++)
         {
             path.Add(i);
-            BackTrackCombine(choices, path, result, length, i + 1);
+            Helper(i + 1, path, n, k);
             path.RemoveAt(path.Count - 1);
         }
     }
 }
-​
 ​
