@@ -75,6 +75,7 @@
 |383|[ Ransom Note](https://leetcode.com/problems/ransom-note/)|[C#](./solutions/383.%20Ransom%20Note.cs)|113 ms|
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[C#](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.cs)|162 ms|
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[C#](./solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.cs)|296 ms|
+|498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Python3](./solutions/498.%20Diagonal%20Traverse.py)|426 ms|
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C#](./solutions/509.%20Fibonacci%20Number.cs)|42 ms|
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[C#](./solutions/542.%2001%20Matrix.cs)|192 ms|
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[C#](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.cs)|220 ms|
