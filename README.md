@@ -23,6 +23,7 @@
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C#](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cs)|236 ms|
 |35|[ Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[C#](./solutions/35.%20Search%20Insert%20Position.cs)|172 ms|
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[C#](./solutions/36.%20Valid%20Sudoku.cs)|160 ms|
+|41|[ First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[C#](./solutions/41.%20First%20Missing%20Positive.cs)|143 ms|
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[Python3](./solutions/43.%20Multiply%20Strings.py)|130 ms|
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[C#](./solutions/46.%20Permutations.cs)|112 ms|
 |47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[C#](./solutions/47.%20Permutations%20II.cs)|138 ms|
