@@ -9,6 +9,8 @@
  *     }
  * }
  */
+​
+// 头插法
 public class Solution {
     public ListNode ReverseBetween(ListNode head, int left, int right) {
         
