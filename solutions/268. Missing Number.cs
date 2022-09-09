@@ -13,9 +13,9 @@ public class Solution {
         }
 ​
         for (int i = 0; i < nums.Length; i++)
-        {
+        {
             if (i != nums[i]) return i;
-        }
+        }
 ​
         return nums.Length;
     }
