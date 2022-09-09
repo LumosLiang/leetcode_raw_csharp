@@ -36,6 +36,7 @@ public class Solution {
                 curr.next = nxt.next;
                 nxt.next = nxt.next.next;
                 curr.next.next = temp;
+                
             }
             curr = nxt;
         }
