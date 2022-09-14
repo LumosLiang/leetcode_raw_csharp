@@ -87,6 +87,7 @@
 |383|[ Ransom Note](https://leetcode.com/problems/ransom-note/)|[C#](./solutions/383.%20Ransom%20Note.cs)|113 ms|
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[C#](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.cs)|162 ms|
 |395|[ Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[C#](./solutions/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.cs)|159 ms|
+|424|[ Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[C#](./solutions/424.%20Longest%20Repeating%20Character%20Replacement.cs)|277 ms|
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[C#](./solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.cs)|296 ms|
 |454|[ 4Sum II](https://leetcode.com/problems/4sum-ii/)|[C#](./solutions/454.%204Sum%20II.cs)|432 ms|
 |498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Python3](./solutions/498.%20Diagonal%20Traverse.py)|426 ms|
