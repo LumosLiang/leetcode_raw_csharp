@@ -33,14 +33,14 @@ public class Solution {
     }
     
     private void Swap(int[] nums, int p1, int p2)
-    {
+    {
         if(p1 >= 0 && p1 < nums.Length && p2 >= 0 && p2 < nums.Length) 
         {
             var temp = nums[p2];
             nums[p2] = nums[p1];
             nums[p1] = temp;
         }
-    }
+    }
     
     
     public int FindKthLargest2(int[] nums, int k) {
