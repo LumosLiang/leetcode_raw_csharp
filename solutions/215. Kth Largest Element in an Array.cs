@@ -1,65 +1,71 @@
-public class Solution {
-    public int FindKthLargest(int[] nums, int k) {
-        
-        int l = 0, r = nums.Length - 1;
-        Helper(nums, l, r, k);
-        return nums[^k];
-    }
-    
-    public void Helper(int[] nums, int left, int right, int k)
+class Heap
+{
+    private List<int> _heap;
+    private int _length;
+​
+    public Heap()
     {
-        if(left >= right) return;
-        
-        int mid = left + (right - left) / 2;
-        var pivot = nums[mid];
-        
-        Swap(nums, left, mid);
-        
-        int p1 = left + 1;
-        for(int p2 = left + 1; p2 <= right; p2++)
-        {
-            if(nums[p2] < pivot)
-            {
-                Swap(nums, p1, p2);
-                p1++;
-            }
-        }
-        
-        Swap(nums, p1 - 1, left);
-        
-        if(right + 1 - (p1 - 1) == k) return;
-        else if(right + 1 - (p1 - 1) > k) Helper(nums, p1, right, k);
-        else Helper(nums, left, p1 - 2, k - (right + 1 - (p1 - 1)));
+        _heap = new List<int>();
+        _length = 0;
     }
-    
-    private void Swap(int[] nums, int p1, int p2)
-    {
-        if(p1 >= 0 && p1 < nums.Length && p2 >= 0 && p2 < nums.Length) 
+​
+    public void Enqueue(int num)
+    {
+        _heap.Add(num);
+        _length++;
+        SiftUp(_length - 1);
+    }
+​
+    private void SiftUp(int start)
+    {
+        int currIdx = start;
+        int parentIdx = (start - 1) / 2;
+​
+        while (parentIdx >= 0)
         {
-            var temp = nums[p2];
-            nums[p2] = nums[p1];
-            nums[p1] = temp;
-        }
-    }
-    
-    
-    public int FindKthLargest2(int[] nums, int k) {
-    
-        
-        PriorityQueue<int, int> pq = new PriorityQueue<int, int>();
-        
-        foreach(int num in nums)
-        {
-            if(pq.Count < k)
-                pq.Enqueue(num, num);
+            if (_heap[parentIdx] > _heap[currIdx])
+            {
+                Swap(_heap, parentIdx, currIdx);
+                currIdx = parentIdx;
+                parentIdx = (currIdx - 1) / 2;
+            }
             else
-            {
-                pq.EnqueueDequeue(num, num);
-            }
+                break;
         }
-        
-        return pq.Peek();
-        
+​
     }
-    
-}
+​
+    public int Dequeue()
+    {
+        if (_length == 0) throw new IndexOutOfRangeException();
+        Swap(_heap, 0, _length - 1);
+        var res = _heap[_length - 1];
+        _heap.RemoveAt(_length - 1);
+        _length--;
+        SiftDown(0);
+        return res;
+    }
+​
+    private void SiftDown(int start)
+    {
+        int currIdx = start;
+        int left = currIdx * 2 + 1;
+​
+        while (left < _length)
+        {
+            if (left + 1 < _length && _heap[left + 1] < _heap[left])
+                left++;
+            if (_heap[currIdx] > _heap[left])
+            {
+                Swap(_heap, currIdx, left);
+                currIdx = left;
+                left = currIdx * 2 + 1;
+            }
+            else
+                break;
+        }
+​
+    }
+​
+    private void Swap(List<int> nums, int left, int right)
+    {
