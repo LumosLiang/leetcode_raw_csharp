@@ -70,7 +70,7 @@
 |207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[C#](./solutions/207.%20Course%20Schedule.cs)|223 ms|
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[C#](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.cs)|100 ms|
 |210|[ Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[C#](./solutions/210.%20Course%20Schedule%20II.cs)|163 ms|
-|215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[C#](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.cs)|372 ms|
+|215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[C#](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.cs)|243 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C#](./solutions/217.%20Contains%20Duplicate.cs)|138 ms|
 |226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[C#](./solutions/226.%20Invert%20Binary%20Tree.cs)|144 ms|
 |231|[ Power of Two](https://leetcode.com/problems/power-of-two/)|[C#](./solutions/231.%20Power%20of%20Two.cs)|48 ms|
