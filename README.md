@@ -61,6 +61,7 @@
 |146|[ LRU Cache](https://leetcode.com/problems/lru-cache/)|[C#](./solutions/146.%20LRU%20Cache.cs)|1337 ms|
 |151|[ Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[C#](./solutions/151.%20Reverse%20Words%20in%20a%20String.cs)|89 ms|
 |153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C#](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.cs)|119 ms|
+|166|[ Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|[Python3](./solutions/166.%20Fraction%20to%20Recurring%20Decimal.py)|63 ms|
 |167|[ Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[C#](./solutions/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cs)|231 ms|
 |189|[ Rotate Array](https://leetcode.com/problems/rotate-array/)|[C#](./solutions/189.%20Rotate%20Array.cs)|282 ms|
 |190|[ Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C#](./solutions/190.%20Reverse%20Bits.cs)|28 ms|
