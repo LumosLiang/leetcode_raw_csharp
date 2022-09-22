@@ -2,11 +2,13 @@ public class Solution
 {
     public readonly int[] originalNums;
     public readonly int[] currNums;
+    public Random picker;
 ​
     public Solution(int[] nums)
     {
         originalNums = nums;
         currNums = (int[]) nums.Clone();
+        picker = new Random();
     }
 ​
     public int[] Reset()
@@ -18,7 +20,7 @@ public class Solution
     {
         for (int i = currNums.Length - 1; i > -1; i--)
         {
-            var picker = new Random();
+            
             var pick = picker.Next(i + 1);
 ​
             var temp = currNums[i];
