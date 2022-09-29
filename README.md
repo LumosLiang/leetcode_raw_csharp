@@ -31,6 +31,7 @@
 |47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[C#](./solutions/47.%20Permutations%20II.cs)|138 ms|
 |49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[C#](./solutions/49.%20Group%20Anagrams.cs)|371 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C#](./solutions/53.%20Maximum%20Subarray.cs)|393 ms|
+|54|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C#](./solutions/54.%20Spiral%20Matrix.cs)|250 ms|
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[C#](./solutions/61.%20Rotate%20List.cs)|174 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C#](./solutions/70.%20Climbing%20Stairs.cs)|48 ms|
 |72|[ Edit Distance](https://leetcode.com/problems/edit-distance/)|[C#](./solutions/72.%20Edit%20Distance.cs)|181 ms|
