@@ -122,6 +122,7 @@
 |994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[C#](./solutions/994.%20Rotting%20Oranges.cs)|80 ms|
 |1108|[ Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[C#](./solutions/1108.%20Defanging%20an%20IP%20Address.cs)|84 ms|
 |1137|[ N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[C#](./solutions/1137.%20N-th%20Tribonacci%20Number.cs)|36 ms|
+|1299|[ Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[C#](./solutions/1299.%20Replace%20Elements%20with%20Greatest%20Element%20on%20Right%20Side.cs)|280 ms|
 |1358|[ Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|[C#](./solutions/1358.%20Number%20of%20Substrings%20Containing%20All%20Three%20Characters.cs)|94 ms|
 |1424|[ Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)|[Python3](./solutions/1424.%20Diagonal%20Traverse%20II.py)|1563 ms|
 |1431|[ Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[C#](./solutions/1431.%20Kids%20With%20the%20Greatest%20Number%20of%20Candies.cs)|236 ms|
