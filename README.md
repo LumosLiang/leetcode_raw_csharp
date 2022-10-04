@@ -35,6 +35,7 @@
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[C#](./solutions/61.%20Rotate%20List.cs)|174 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C#](./solutions/70.%20Climbing%20Stairs.cs)|48 ms|
 |72|[ Edit Distance](https://leetcode.com/problems/edit-distance/)|[C#](./solutions/72.%20Edit%20Distance.cs)|181 ms|
+|73|[ Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[C#](./solutions/73.%20Set%20Matrix%20Zeroes.cs)|155 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C#](./solutions/74.%20Search%20a%202D%20Matrix.cs)|156 ms|
 |77|[ Combinations](https://leetcode.com/problems/combinations/)|[C#](./solutions/77.%20Combinations.cs)|198 ms|
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[C#](./solutions/78.%20Subsets.cs)|240 ms|
