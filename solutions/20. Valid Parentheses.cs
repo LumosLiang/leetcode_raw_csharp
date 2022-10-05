@@ -1,6 +1,6 @@
 public class Solution {
-    public bool IsValid(string s)
-    {
+    public bool IsValid(string s) 
+    {   
         Dictionary<char, char> hash = new Dictionary<char, char> 
         {
             {'(',')'},
@@ -13,14 +13,14 @@ public class Solution {
         foreach (char item in s)
         {
             if (stack.Count != 0 && hash.ContainsKey(stack.Peek()) && hash[stack.Peek()] == item)
-            {
                 stack.Pop();
-                continue;
-            }
-            stack.Push(item);
+            else
+                stack.Push(item);
         }
-        if (stack.Count == 0) return true;
-        else return false;
+  
+        return stack.Count == 0? true:false;
 ​
     }
 }
+  
+    
