@@ -71,6 +71,7 @@
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[C#](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.cs)|239 ms|
 |166|[ Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|[Python3](./solutions/166.%20Fraction%20to%20Recurring%20Decimal.py)|63 ms|
 |167|[ Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[C#](./solutions/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cs)|231 ms|
+|172|[ Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[C#](./solutions/172.%20Factorial%20Trailing%20Zeroes.cs)|50 ms|
 |189|[ Rotate Array](https://leetcode.com/problems/rotate-array/)|[C#](./solutions/189.%20Rotate%20Array.cs)|282 ms|
 |190|[ Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C#](./solutions/190.%20Reverse%20Bits.cs)|28 ms|
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C#](./solutions/191.%20Number%20of%201%20Bits.cs)|32 ms|
