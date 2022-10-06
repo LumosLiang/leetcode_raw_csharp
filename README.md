@@ -93,6 +93,7 @@
 |239|[ Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[C#](./solutions/239.%20Sliding%20Window%20Maximum.cs)|816 ms|
 |242|[ Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C#](./solutions/242.%20Valid%20Anagram.cs)|130 ms|
 |263|[ Ugly Number](https://leetcode.com/problems/ugly-number/)|[C#](./solutions/263.%20Ugly%20Number.cs)|41 ms|
+|264|[ Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[C#](./solutions/264.%20Ugly%20Number%20II.cs)|63 ms|
 |268|[ Missing Number](https://leetcode.com/problems/missing-number/)|[C#](./solutions/268.%20Missing%20Number.cs)|203 ms|
 |278|[ First Bad Version](https://leetcode.com/problems/first-bad-version/)|[C#](./solutions/278.%20First%20Bad%20Version.cs)|32 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[C#](./solutions/283.%20Move%20Zeroes.cs)|256 ms|
