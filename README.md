@@ -76,6 +76,7 @@
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C#](./solutions/191.%20Number%20of%201%20Bits.cs)|32 ms|
 |198|[ House Robber](https://leetcode.com/problems/house-robber/)|[C#](./solutions/198.%20House%20Robber.cs)|132 ms|
 |203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[C#](./solutions/203.%20Remove%20Linked%20List%20Elements.cs)|96 ms|
+|204|[ Count Primes](https://leetcode.com/problems/count-primes/)|[C#](./solutions/204.%20Count%20Primes.cs)|369 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C#](./solutions/206.%20Reverse%20Linked%20List.cs)|96 ms|
 |207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[C#](./solutions/207.%20Course%20Schedule.cs)|223 ms|
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[C#](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.cs)|100 ms|
