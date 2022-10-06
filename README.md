@@ -104,6 +104,7 @@
 |424|[ Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[C#](./solutions/424.%20Longest%20Repeating%20Character%20Replacement.cs)|72 ms|
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[C#](./solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.cs)|296 ms|
 |454|[ 4Sum II](https://leetcode.com/problems/4sum-ii/)|[C#](./solutions/454.%204Sum%20II.cs)|432 ms|
+|470|[ Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[C#](./solutions/470.%20Implement%20Rand10()%20Using%20Rand7().cs)|194 ms|
 |498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Python3](./solutions/498.%20Diagonal%20Traverse.py)|426 ms|
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C#](./solutions/509.%20Fibonacci%20Number.cs)|42 ms|
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[C#](./solutions/542.%2001%20Matrix.cs)|192 ms|
