@@ -1,74 +1,82 @@
-public class Codec 
-{
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int x) { val = x; }
+ * }
+ */
+​
+// DFS, BFS
+​
+public class Codec {
 ​
     // Encodes a tree to a single string.
-    public string serialize(TreeNode root) 
-    {
-        var result = new List<string>();
-​
-        if (root == null) return "";
-​
-        var queue = new Queue<TreeNode>();
-        queue.Enqueue(root);
-​
-        while(queue.Any())
+    public string serialize(TreeNode root) {
+        
+        if(root == null) return "";
+        
+        string res = "";
+        
+        var q = new Queue<TreeNode>();
+        q.Enqueue(root);
+        
+        while(q.Count != 0)
         {
-            var size = queue.Count;
-​
-            for (int s = 0; s < size; s++)
+            var temp = new Queue<TreeNode>();
+            while(q.Count != 0)
             {
-                var cur = queue.Dequeue();
-​
-                if (cur == null) 
+                var curr = q.Dequeue();
+                if(curr == null)
                 {
-                    result.Add("n");
+                    res += "#,";
                     continue;
                 }
-                else             result.Add($"{cur.val}");
-​
-                queue.Enqueue(cur.left);
-                queue.Enqueue(cur.right);
+                res += curr.val.ToString() + ",";
+                temp.Enqueue(curr.left);
+                temp.Enqueue(curr.right);
             }
+            q= temp;
         }
-    
-        //Console.WriteLine(string.Join(",", result));
-        return string.Join(",", result);
+        return res;
+        
     }
 ​
     // Decodes your encoded data to tree.
-    public TreeNode deserialize(string data) 
-    {
-        if (data == "") return null;
-​
-        var nodes = data.Split(',');
-​
-        var root = new TreeNode(int.Parse(nodes[0]));
-​
+    public TreeNode deserialize(string data) {
+        
+        if(data == "" || data[0] == '#') return null;
+        data.TrimEnd(',');
+        var dataArray = data.Split(',');
+        var root = new TreeNode(Int32.Parse(dataArray[0]));
+        
+        var q = new Queue<TreeNode>();
+        q.Enqueue(root);
         int i = 1;
-​
-        var queue = new Queue<TreeNode>();
-        queue.Enqueue(root);
-​
-        while(i < nodes.Length)
+        
+        while(q.Count != 0)
         {
-            var cur = queue.Dequeue();
-            if (nodes[i] != "n")
+            var curr = q.Dequeue();
+            if(dataArray[i] != "#")
             {
-                cur.left = new TreeNode(int.Parse(nodes[i]));
-                queue.Enqueue(cur.left);
+                curr.left = new TreeNode(Int32.Parse(dataArray[i]));
+                q.Enqueue(curr.left);
             }
-​
             i++;
-​
-            if (nodes[i] != "n")
+            if(dataArray[i] != "#")
             {
-                cur.right = new TreeNode(int.Parse(nodes[i]));
-                queue.Enqueue(cur.right);
+                curr.right = new TreeNode(Int32.Parse(dataArray[i]));
+                q.Enqueue(curr.right);
             }
-            
             i++;
         }
-​
+        
         return root;
     }
 }
+​
+// Your Codec object will be instantiated and called as such:
+// Codec ser = new Codec();
+// Codec deser = new Codec();
+// TreeNode ans = deser.deserialize(ser.serialize(root));
