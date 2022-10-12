@@ -30,13 +30,9 @@ public class Solution {
             if(!graph.ContainsKey(currNode)) continue;
             foreach((int target, int time) in graph[currNode])
             {
-                // Console.WriteLine((target, time));
                 pq.Enqueue((currTime + time, target), currTime + time);
             }
         }
-        
-        // Console.WriteLine(string.Join("", timePass.Values));
-        
         var res = timePass.Count == n? timePass.Values.Max():-1;
         
         return res;
