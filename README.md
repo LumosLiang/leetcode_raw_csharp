@@ -71,6 +71,7 @@
 |146|[ LRU Cache](https://leetcode.com/problems/lru-cache/)|[C#](./solutions/146.%20LRU%20Cache.cs)|1337 ms|
 |148|[ Sort List](https://leetcode.com/problems/sort-list/)|[C#](./solutions/148.%20Sort%20List.cs)|N/A|
 |151|[ Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[C#](./solutions/151.%20Reverse%20Words%20in%20a%20String.cs)|89 ms|
+|152|[ Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[C#](./solutions/152.%20Maximum%20Product%20Subarray.cs)|97 ms|
 |153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C#](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.cs)|119 ms|
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[C#](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.cs)|239 ms|
 |166|[ Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|[Python3](./solutions/166.%20Fraction%20to%20Recurring%20Decimal.py)|63 ms|
