@@ -31,6 +31,7 @@
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[C#](./solutions/36.%20Valid%20Sudoku.cs)|160 ms|
 |41|[ First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[C#](./solutions/41.%20First%20Missing%20Positive.cs)|143 ms|
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C#](./solutions/43.%20Multiply%20Strings.cs)|158 ms|
+|44|[ Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C#](./solutions/44.%20Wildcard%20Matching.cs)|187 ms|
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[C#](./solutions/46.%20Permutations.cs)|112 ms|
 |47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[C#](./solutions/47.%20Permutations%20II.cs)|138 ms|
 |49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[C#](./solutions/49.%20Group%20Anagrams.cs)|371 ms|
