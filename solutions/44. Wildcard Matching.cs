@@ -9,7 +9,7 @@ public class Solution {
     public bool Helper2(int p1, int p2, string s, string p, int[,] dp)
     {
         if(dp[p1, p2] == 0)
-        {
+        {
             if(p1 < s.Length && p2 < p.Length && (s[p1] == p[p2] || p[p2] == '?'))
                 dp[p1, p2] = Helper2(p1 + 1, p2 + 1, s, p, dp)? 1:-1;
         
@@ -20,7 +20,7 @@ public class Solution {
                     temp = temp || Helper2(p1 + 1, p2 + 1, s, p, dp) || Helper2(p1 + 1, p2, s, p, dp);
                 dp[p1, p2] = temp? 1:-1;
             }
-        }
+        }
         return dp[p1, p2] == 1? true:false;
     }
     
@@ -52,13 +52,3 @@ public class Solution {
     
 //     if p[] == ?
 //         return helper
-        
-//     if p[] == *
-        
-//         return helper(+1, +1) or Helper(left, +1)
-        
-//     return false;
-        
-        
-​
-​
