@@ -21,6 +21,7 @@
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C#](./solutions/21.%20Merge%20Two%20Sorted%20Lists.cs)|92 ms|
 |22|[ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[C#](./solutions/22.%20Generate%20Parentheses.cs)|247 ms|
 |23|[ Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[C#](./solutions/23.%20Merge%20k%20Sorted%20Lists.cs)|179 ms|
+|24|[ Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[C#](./solutions/24.%20Swap%20Nodes%20in%20Pairs.cs)|125 ms|
 |25|[ Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[C#](./solutions/25.%20Reverse%20Nodes%20in%20k-Group.cs)|98 ms|
 |26|[ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C#](./solutions/26.%20Remove%20Duplicates%20from%20Sorted%20Array.cs)|278 ms|
 |27|[ Remove Element](https://leetcode.com/problems/remove-element/)|[C#](./solutions/27.%20Remove%20Element.cs)|249 ms|
