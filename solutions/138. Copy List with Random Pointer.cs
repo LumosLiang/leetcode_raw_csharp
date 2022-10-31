@@ -1,12 +1,3 @@
-/*
-// Definition for a Node.
-public class Node {
-    public int val;
-    public Node next;
-    public Node random;
-    
-    public Node(int _val) {
-        val = _val;
         next = null;
         random = null;
     }
@@ -15,7 +6,12 @@ public class Node {
 ​
 public class Solution {
     public Node CopyRandomList(Node head) {
-     
+        return Sol2(head);
+    }
+    
+    // O(N), O(N)
+    public Node Sol1(Node head)
+    {
         if(head is null) return null;
         
         Dictionary<Node, Node> hash = new Dictionary<Node, Node>();
@@ -35,6 +31,25 @@ public class Solution {
             if(k.random != null) v.random = hash[k.random];
         }
         
-        return hash[head];
+        return hash[head];  
     }
-}
+    
+    // O(N), O(1)
+    public Node Sol2(Node head)
+    {
+        if(head == null) return null;
+        
+        Node curr = head;
+        
+        while(curr != null)
+        {
+            Node nxt = curr.next;
+            curr.next = new Node(curr.val);
+            curr.next.next = nxt;
+            curr = nxt;
+        }
+        
+        Node curr0 = head;
+        while(curr0 != null)
+        {
+            if(curr0.random != null) curr0.next.random = curr0.random.next;
