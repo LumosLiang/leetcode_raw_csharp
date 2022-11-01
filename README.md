@@ -39,7 +39,7 @@
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C#](./solutions/53.%20Maximum%20Subarray.cs)|393 ms|
 |54|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C#](./solutions/54.%20Spiral%20Matrix.cs)|250 ms|
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[C#](./solutions/61.%20Rotate%20List.cs)|174 ms|
-|69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C#](./solutions/69.%20Sqrt(x).cs)|37 ms|
+|69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C#](./solutions/69.%20Sqrt(x).cs)|N/A|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C#](./solutions/70.%20Climbing%20Stairs.cs)|48 ms|
 |72|[ Edit Distance](https://leetcode.com/problems/edit-distance/)|[C#](./solutions/72.%20Edit%20Distance.cs)|181 ms|
 |73|[ Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[C#](./solutions/73.%20Set%20Matrix%20Zeroes.cs)|155 ms|
