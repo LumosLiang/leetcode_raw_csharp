@@ -91,6 +91,7 @@
 |204|[ Count Primes](https://leetcode.com/problems/count-primes/)|[C#](./solutions/204.%20Count%20Primes.cs)|369 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C#](./solutions/206.%20Reverse%20Linked%20List.cs)|96 ms|
 |207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[C#](./solutions/207.%20Course%20Schedule.cs)|223 ms|
+|208|[ Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[C#](./solutions/208.%20Implement%20Trie%20(Prefix%20Tree).cs)|404 ms|
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[C#](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.cs)|100 ms|
 |210|[ Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[C#](./solutions/210.%20Course%20Schedule%20II.cs)|163 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[C#](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.cs)|243 ms|
