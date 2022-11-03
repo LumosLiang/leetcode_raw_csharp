@@ -3,10 +3,10 @@ public class TrieNode
     public TrieNode[] table;
     public bool isEnd;
     public TrieNode()
-    {
+    {
         table = new TrieNode[26];
         isEnd = false;
-    }
+    }
 }
 ​
 public class Trie {
@@ -20,12 +20,12 @@ public class Trie {
     public void Insert(string word) {
         var curr = head;
         foreach(var c in word)
-        {
+        {
             var idx = c - 'a';
             if(curr.table[idx] == null) 
                 curr.table[idx] = new TrieNode();
             curr = curr.table[idx];
-        }
+        }
         curr.isEnd = true;
     }
     
