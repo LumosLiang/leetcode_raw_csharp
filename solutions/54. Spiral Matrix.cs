@@ -2,7 +2,7 @@ public class Solution {
     public IList<int> SpiralOrder(int[][] matrix) 
     {
         return Sol2(matrix);
-    }    
+    }
     
     public IList<int> Sol1(int[][] matrix)
     {
@@ -52,8 +52,7 @@ public class Solution {
         return res;
     }   
     
-​
-    public IList<int> Sol2(int[][] matrix)
+    public IList<int> Sol2(int[][] matrix)
     {
         
         IList<int> res = new List<int>();
@@ -84,5 +83,3 @@ public class Solution {
     }
     
 }
-​
-​
