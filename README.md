@@ -38,8 +38,8 @@
 |49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[C#](./solutions/49.%20Group%20Anagrams.cs)|371 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C#](./solutions/53.%20Maximum%20Subarray.cs)|393 ms|
 |54|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C#](./solutions/54.%20Spiral%20Matrix.cs)|250 ms|
-|56|[ Merge Interval](https://leetcode.com/problems/merge-intervals/)|[C#](./solutions/56.%20Merge%20Interval.cs)|250 ms|
-|57|[ Insert Intervals](https://leetcode.com/problems/insert-interval/)|[C#](./solutions/57.%20Insert%20Interval.cs)|250 ms|
+|56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C#](./solutions/56.%20Merge%20Intervals.cs)|250 ms|
+|57|[ Insert Intervals](https://leetcode.com/problems/insert-interval/)|[C#](./solutions/57.%20Insert%20Intervals.cs)|250 ms|
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[C#](./solutions/61.%20Rotate%20List.cs)|174 ms|
 |69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C#](./solutions/69.%20Sqrt(x).cs)|N/A|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C#](./solutions/70.%20Climbing%20Stairs.cs)|48 ms|
